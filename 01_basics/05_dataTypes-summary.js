@@ -44,7 +44,7 @@ let userOne = {
     age : 22
 }
 
-let userTwo = userOne;  //
+let userTwo = userOne;  
 userTwo.name = 'hameed' ;
 
 console.log(userOne.name); // hameed
