@@ -25,4 +25,30 @@ const myFunction = function(){
 }
 
 
+// ************************ Memory
+
+// Stack(Primitive) => change kro ge to copy meh hoga  ## Heap (Non-Primitive) change in original
+
+
+let myName = 'kaisar'
+let anoherName = myName; // kaisar
+// console.log(anoherName);  // kaisar
+anoherName = 'hameed'
+// console.log(myName); // kaisar
+// console.log(anoherName); // hameed. change only in copy
+
+// just change in copy 
+
+let userOne = {
+    name : 'kaisar',
+    age : 22
+}
+
+let userTwo = userOne;  //
+userTwo.name = 'hameed' ;
+
+console.log(userOne.name); // hameed
+console.log(userTwo.name); // hameed
+
+
 
